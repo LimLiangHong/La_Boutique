@@ -37,17 +37,17 @@
 ## About The Project
 Link to Webapp: https://limlianghong.github.io/MAMBA/
 
-Interactive Design - Assignment 1 Portfolio Website by Lim Liang Hong
+Interactive Design - Assignment 2 Ecommmerce Website by Lim Liang Hong and jessica lu
 
 <h3 id="intro">Introduction</h3>
 
-<p>This is a portfolio website that displays my works and abilities as an aspiring 3D game artist.</p>
+<p>This is an Ecommerce website that we have created for the project. It is a fashion shopping site that allows you to get coupons/vouchers as prizes after you checkout. Discounts are up to 70%</p>
 
 <h2 id="designProcess">Design Process</h2>
 <h4>users</h4>
 
-users of the website are instantly greeted with a simplistic and clean user interface. They can use either the navigaion bar at the side to navigate through the website. If the user decides to scroll instead, they can find
-some navigation cards that will lead the user to the different web pages. So some interactivity with the ui and the user as the ui helps with the navigation of the website.
+Users are greeted with a simplistic design for the website. With a common top nav bar for windows and a handburger menu at the side for mobile phones and ipad.
+Due to covid it is unsafe to shop outside. Hence, this website was created such that people dont have to shop outside for clothes and instead shop online.
 
 
 <h2 id="features">Features</h2>
@@ -55,18 +55,15 @@ These are the current features and pages of my website
 
 <h2 id="existingFeat">Existing Features</h2>
 
-Introduction Page. Allows users to get to know a little about me.
+Login Page. Allows users to create an account and login to access the home page of the website.
 
-Navigation bar on the right. Allows user to navigate to the different pages.
+Navigation bar at the top. Allows user to navigate to the different pages.
 
-Navigation cards. More asthetically pleasing. Incase user misses the navigation bar and continues scrolling,
-they will come across the navigation cards where they can also use to navigate through the websites.
+Hover effects and is active effects are placed on each different pages so that users would know which webpage they are on.
 
-2D page. Allows users to view my 2d works and abilities in 2d art.
+Home Page. Allows users to view the upcoming products, deals and also view some of the current line of products.
 
-3D page. Allows users to view my 3d works and capabilities in 3d art.
 
-Misc page. Allows users to view my works aside from normal 2d and 3d works and showing more diversity in my abilities.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
