@@ -55,11 +55,15 @@ These are the current features and pages of my website
 
 <h2 id="existingFeat">Existing Features</h2>
 
+(disclaimer you have to click the space above the login button to enter the main page)
+
 Login Page. Allows users to create an account and login to access the home page of the website. (by jessica)
 
 Navigation bar at the top. Allows user to navigate to the different pages. (By Liang Hong)
 
 Hover effects and is active effects are placed on each different pages so that users would know which webpage they are on. (by Liang Hong)
+
+Sign in Button at the bottom of all the pages in the main website bring user back to the login page.
 
 Home Page. Allows users to view the upcoming products, deals and also view some of the current line of products. (by Liang Hong)
 
@@ -74,6 +78,8 @@ Contact Page. Allows users to contact us about our products or if they have any 
 Cart Page. Allows users to purchase the items that they "added" to their cart and checkout. And they are able to apply their coupons if any. (by Liang Hong)
 
 Rewards Page. After checking out the user gets to spin the wheel on how much discount coupons they get. Up to 70%. (by Jessica)
+
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
