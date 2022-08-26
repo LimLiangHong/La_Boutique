@@ -83,6 +83,17 @@ h4{
     top: 0;
     left: 0;
 }
+#header2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 80px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
 
 #navbar{
     display:flex;
@@ -91,7 +102,7 @@ h4{
 }
 #navbar li{
     list-style: none;
-    padding: 0 20px;
+    padding: 0 90px;
     
 }
 
@@ -105,7 +116,7 @@ h4{
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: #088178;
+    color: #ad03fc;
 }
 
 #navbar li a.active::after{
@@ -130,7 +141,7 @@ h4{
     width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
-    padding: 0 80px;
+    padding: 0 200px 0 800px;
     display: flex;
     flex-direction: column;
     align-items: flex-start ;
@@ -144,15 +155,62 @@ h4{
 }
 
 #hero button{
-    background-image: url("img/button.png");
-    background-color: transparent;
-    color:#088178;
-    border:0;
-    padding: 14px 80px 14px 65px;
-    background-repeat: no repeat;
-    cursor: pointer;
-    font-weight: 700;
-    font-size:15px;
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
 }
 #feature{
     display: flex;
@@ -220,27 +278,27 @@ h4{
     flex-wrap: wrap;
 }
 #product1 .pro{
-    width: 23%;
+    width: 26%;
     min-width: 250px;
-    padding: 10px 12px;
+    padding: 20px 24px;
     border: 1px solid #cce7d0; 
-    border-radius: 25px;
+    border-radius: none;
     cursor: pointer;
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-    margin: 15px 0;
+    box-shadow: 20px 20px 30px rgba(187, 187, 187, 0.06);
+    margin: 30px 40px;
     transition: 0.2s ease;
     position:relative;
 }
 #product1 .pro:hover{
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    box-shadow: 20px 20px 30px rgba(181, 112, 189, 0.226);
 }
 #product1 .proimg img{
     width: 100%;
-    border-radius: 20px;
+    border-radius: none;
 }
 
 #product1 .pro .des{
-    text-align: start;
+    text-align: center;
     padding: 10px 0;
 }
 
@@ -250,12 +308,13 @@ h4{
 }
 
 #product1 .pro .des h5{
-    padding-top: 7px;
+    padding-top: 10px;
     color: #1a1a1a;
     font-size: 14px;
 }
 #product1 .pro .des i{
-    font-size: 12px;
+    padding-top: 10px;
+    font-size: 15px;
     color: rgb(243,181,25);
 }
 
@@ -433,7 +492,7 @@ h4{
     flex-wrap: wrap;
     align-items: center;
     background-image: url("img/banner/b14.png");
-    background-position: 20% 30%;
+    background-position: 40% 50%;
     background-color: #041e42;
 }
 
@@ -472,7 +531,7 @@ h4{
 }
 
 #newsletter button{
-    background-color: #088178;
+    background-color: #653a8d;
     color: #fff;
     white-space: nowrap;
     border-top-left-radius: 0;
@@ -486,12 +545,18 @@ footer{
 }
 
 footer .col{
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
 }
-
+footer .col2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
 footer .logo{
     margin-bottom: 30px;
 }
@@ -731,9 +796,9 @@ footer .copyright{
     background-size: cover;
     display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: flex-start;
     flex-direction: column;
-    padding: 14px;
+    padding: 0 20px 0 90px;
 }
 
 #page-header h2{
@@ -886,14 +951,24 @@ footer .copyright{
 }
 
 /*About Page*/
-
+#page-header.about-header p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#page-header.about-header h2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 #page-header.about-header {
     background-image: url("img/about/banner.png");
 }
 
 #about-head {
-    display: flex;
+ 
     align-items: center;
+    text-align: center;
 }
 
 #about-head img {

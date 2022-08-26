@@ -50,6 +50,7 @@ Users are greeted with a simplistic design for the website. With a common top na
 Due to covid it is unsafe to shop outside. Hence, this website was created such that people dont have to shop outside for clothes and instead shop online.
 
 
+
 <h2 id="features">Features</h2>
 These are the current features and pages of my website
 
